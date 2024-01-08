@@ -1,0 +1,22 @@
+{
+	"name": "SqlServer1",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Data Source=DESKTOP-PAS61C8;Initial Catalog=AdventureWorksDW;User ID=sa",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sql-ssms"
+			}
+		},
+		"connectVia": {
+			"referenceName": "ssms",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
