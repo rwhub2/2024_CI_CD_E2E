@@ -1,0 +1,9 @@
+{
+	"name": "df-de-e2e",
+	"location": "australiasoutheast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "860f8671-2a3e-4b76-bfbb-b856c9079fc7",
+		"tenantId": "0b5d1755-5d68-4887-becc-f6d919e12c77"
+	}
+}
