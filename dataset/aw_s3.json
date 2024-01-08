@@ -11,7 +11,8 @@
 			"location": {
 				"type": "AmazonS3Location",
 				"bucketName": "bronze-bucket-aw",
-				"folderPath": "adventure_works"
+				"folderPath": "adventure_works",
+				"fileName": "customer.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
