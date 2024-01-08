@@ -24,7 +24,7 @@
 						"type": "DelimitedTextSink",
 						"storeSettings": {
 							"type": "AmazonS3WriteSettings",
-							"copyBehavior": "FlattenHierarchy"
+							"copyBehavior": "PreserveHierarchy"
 						},
 						"formatSettings": {
 							"type": "DelimitedTextWriteSettings",
