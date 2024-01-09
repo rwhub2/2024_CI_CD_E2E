@@ -1,0 +1,19 @@
+{
+	"name": "Parquet1_dest",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DataLakeStorage_Destination",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "bronze_table"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}

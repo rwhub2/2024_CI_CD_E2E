@@ -21,15 +21,12 @@
 						"partitionOption": "None"
 					},
 					"sink": {
-						"type": "DelimitedTextSink",
+						"type": "ParquetSink",
 						"storeSettings": {
-							"type": "AmazonS3WriteSettings",
-							"copyBehavior": "PreserveHierarchy"
+							"type": "AzureBlobFSWriteSettings"
 						},
 						"formatSettings": {
-							"type": "DelimitedTextWriteSettings",
-							"quoteAllText": true,
-							"fileExtension": ".csv"
+							"type": "ParquetWriteSettings"
 						}
 					},
 					"enableStaging": false,
@@ -402,7 +399,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "aw_s3",
+						"referenceName": "Parquet1_dest",
 						"type": "DatasetReference"
 					}
 				]
