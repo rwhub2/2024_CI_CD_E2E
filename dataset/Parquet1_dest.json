@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileSystem": "bronze_table"
+				"fileSystem": "bronze-table"
 			},
 			"compressionCodec": "snappy"
 		},
